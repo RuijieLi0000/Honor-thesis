@@ -4,7 +4,7 @@ import numpy as np
 
 # Setting device
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
-print(f"正在使用设备: {device}")
+print(f"Using device: {device}")
 
 # loadMiDaS
 model_type = "MiDaS_small" 
